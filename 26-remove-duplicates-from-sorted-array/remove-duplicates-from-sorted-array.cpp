@@ -10,14 +10,9 @@ public:
             {
                 j++;
             }
-            else if(nums[i]!=nums[j] && (j-i)>1)
+            else if(nums[i]!=nums[j])
             {
                 swap(nums[i+1],nums[j]);
-                i++;
-                j++;
-            }
-            else
-            {
                 i++;
                 j++;
             }
