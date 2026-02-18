@@ -12,7 +12,8 @@ public:
             }
             else if(nums[i]!=nums[j])
             {
-                swap(nums[i+1],nums[j]);
+                nums[i+1] = nums[j];
+                //swap(nums[i+1],nums[j]);
                 i++;
                 j++;
             }
