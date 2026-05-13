@@ -7,7 +7,11 @@ public:
         {
             if(nums[i]!=0)
             {
-                swap(nums[i],nums[k]);
+                if(i!=k)
+                {
+                    swap(nums[i],nums[k]);
+
+                }
                 k++;
             }
         }
